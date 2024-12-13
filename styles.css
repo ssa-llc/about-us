@@ -51,6 +51,8 @@ body {
 }
 
 .about-logo {
-  max-width: 200px;
-  height: auto;
+  width: 100px; /* Ширина логотипа */
+  height: auto; /* Сохраняет пропорции */
+  max-width: 100%; /* Предотвращает выход за границы контейнера */
 }
+
